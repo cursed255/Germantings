@@ -1,3 +1,5 @@
+package com.mycompany.germantings;
+
 /*
  Title: SimpleDataSource
  Author: Bradley Potter & Adam Evans
