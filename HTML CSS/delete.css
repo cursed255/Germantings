@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.usernameBox{
+text-align: center;
+margin-left: 40%;
+margin-top: 3%;
+ width: 20em;  height: 2em;
+}
+
+#loginButton{
+  padding: 10px 15px;
+  background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */ 
+  background: -moz-linear-gradient(#81222a, #c6474e); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#81222a, #c6474e);
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  border: 2px solid;
+  border-color: black;
+  color:black;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+  margin-top: 20px;
+  margin-left: 45%;
+}
