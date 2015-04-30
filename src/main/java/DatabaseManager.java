@@ -23,14 +23,14 @@ public class DatabaseManager {
     String c = "";
     String d = "";
     
-    public void addstudent() throws IOException, ClassNotFoundException, SQLException {
+    public void addUser() throws IOException, ClassNotFoundException, SQLException {
         System.out.println("add Users");
         SimpleDataSource.init("database.properties");
         Connection conn = SimpleDataSource.getConnection();
         Statement st = conn.createStatement();
 
         try {
-            String command = "INSERT INTO User(user_id, user_name, password, user_level)" + "VALUES (?,?,?,?)";
+            String command = "INSERT INTO User(user_ID, user_name, password, user_level)" + "VALUES (?,?,?,?)";
             PreparedStatement preperedStatement = conn.prepareStatement(command);
             preperedStatement.setString(1, a);
             preperedStatement.setString(2, b);
@@ -43,4 +43,23 @@ public class DatabaseManager {
             conn.close();
         }
     }
+    
+    public void deleteUser() throws IOException, ClassNotFoundException, SQLException {
+        System.out.println("delete students");
+        SimpleDataSource.init("database.properties");
+        Connection conn = SimpleDataSource.getConnection();
+        Statement st = conn.createStatement();
+        try {
+            String command = "DELETE FROM User WHERE User_ID = ?";
+            PreparedStatement preperedStatement = conn.prepareStatement(command);
+            preperedStatement.setString(1, a);
+            preperedStatement.execute();
+
+        } finally {
+
+            conn.close();
+        }
+    }
+    
+    
 }
