@@ -1,0 +1,1 @@
+INSERT INTO `noun`(`noun_ID`,`german_noun`, `english_word`, `gender`) VALUES ('0','Baum','Tree','M'),('1','Blume','Flower','F'),('2','Burg','Castle','F'),('3','Ente','Duck','F'),('4','Fluss','River','M');
