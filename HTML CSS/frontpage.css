@@ -9,8 +9,8 @@
 
 
   .Enquiry{
-    margin-left: 10%;
-    margin-top: 15%;
+    margin-left: 7%;
+    margin-top: 7%;
     width: 22em;  height: 5em;
     background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */
@@ -47,7 +47,7 @@
 
   .Quotes{
     margin-left: 7%;
-    margin-top: 15%;
+    margin-top: 7%;
     width: 22em;  height: 5em;
      background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */
@@ -85,7 +85,7 @@
   }
   .Costing{
     margin-left: 7%;
-    margin-top: 15%;
+    margin-top: 7%;
     width: 22em;  height: 5em;  
      background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */
@@ -121,8 +121,8 @@
     box-shadow: inset 0 5px 10px white;
   }
   .Checklist{
-    margin-left: 39%;
-    margin-top: 5%;
+    margin-left: 7%;
+    margin-top: 7%;
     width: 22em;  height: 5em;
     background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */
@@ -160,7 +160,7 @@
   }
   .maintanence{
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: 7%;
     width: 25em;  height: 5em;
     background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */
@@ -199,7 +199,7 @@
   }
   .order{
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: 7%;
     width: 25em;  height: 5em;
     background: -webkit-linear-gradient(#81222a, #c6474e); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#81222a, #c6474e); /* For Opera 11.1 to 12.0 */
