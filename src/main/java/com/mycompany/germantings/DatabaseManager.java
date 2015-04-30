@@ -56,12 +56,15 @@ public class DatabaseManager {
             PreparedStatement preperedStatement = conn.prepareStatement(command);
             preperedStatement.setString(1, a);
             preperedStatement.execute();
-
         } finally {
-
             conn.close();
         }
     }
     
-    
+    public void login() throws IOException, ClassNotFoundException, SQLException{
+        System.out.println("login");
+        SimpleDataSource.init("database.properties");
+        Connection conn = SimpleDataSource.getConnection();
+        
+    }
 }

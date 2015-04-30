@@ -6,7 +6,7 @@
 	 version="3.1">
     <servlet>
         <servlet-name>loginServlet</servlet-name>
-        <servlet-class>german.loginServlet</servlet-class>
+        <servlet-class>com.mycompany.germantings.loginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>loginServlet</servlet-name>
